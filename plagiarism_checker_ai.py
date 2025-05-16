@@ -102,7 +102,7 @@ model.summary()
 # In[11]:
 
 
-epochs = 7
+epochs = 10
 batch_size = 64
 early_stop = EarlyStopping(monitor='val_loss', patience=2, restore_best_weights=True)
 history = model.fit(
